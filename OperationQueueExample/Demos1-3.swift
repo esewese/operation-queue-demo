@@ -18,11 +18,11 @@ extension DemoViewController {
         operationQueue.maxConcurrentOperationCount = 2
         self.activityIndicator.startAnimating()
         
-        for (index, imageView) in imageViews().enumerated() {
+        for imageView in imageViews() {
             
             // Adding operation with closure
             operationQueue.addOperation {
-                if let url = URL(string: "https://unsplash.it/600/300?image=\(index + 10)") {
+                if let url = URL(string: "https://placebeard.it/600/300") {
                     do {
                         let data = try Data(contentsOf: url)
                         let image = UIImage(data: data)
@@ -30,7 +30,7 @@ extension DemoViewController {
                             imageView.image = image
                         }
                     } catch {
-                        print("Failed to load image for view \(index)")
+                        print("Failed to load image for \(url)")
                     }
                 }
             }
@@ -94,7 +94,7 @@ extension DemoViewController {
         
         var operations = [Operation]()
         for (index, imageView) in imageViews().enumerated() {
-            if let url = URL(string: "https://unsplash.it/600/300?image=\(index + 15)") {
+            if let url = URL(string: "https://placebeard.it/600/300") {
                 let operation = ImageLoadOperation(withURL: url, forImageView: imageView)
                 if index > 1 {
                     operation.queuePriority = .high
