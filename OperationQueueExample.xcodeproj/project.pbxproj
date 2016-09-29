@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		DC34777B1D9BD77300220F8F /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC34777A1D9BD77300220F8F /* DemoViewController.swift */; };
 		DC34777D1D9BE05000220F8F /* CollectionOperationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC34777C1D9BE05000220F8F /* CollectionOperationViewController.swift */; };
-		DC3477841D9BF6C700220F8F /* UIImageEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3477831D9BF6C700220F8F /* UIImageEffects.swift */; };
 		DC3C0A3D1D9913F8001BB4D8 /* AsyncOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3C0A3C1D9913F8001BB4D8 /* AsyncOperation.swift */; };
 		DC3C0A3F1D991FA2001BB4D8 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3C0A3E1D991FA2001BB4D8 /* Cell.swift */; };
 		DC806AB61D97D06B00ABCADF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC806AB51D97D06B00ABCADF /* AppDelegate.swift */; };
@@ -19,12 +18,12 @@
 		DC806AC01D97D06B00ABCADF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC806ABE1D97D06B00ABCADF /* LaunchScreen.storyboard */; };
 		DC806AC81D97D89100ABCADF /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC806AC71D97D89100ABCADF /* Item.swift */; };
 		DCA68DFF1D9C525300101830 /* Demos1-3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA68DFE1D9C525300101830 /* Demos1-3.swift */; };
+		DCFEAE681D9D175100EF341F /* UIImageEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFEAE671D9D175100EF341F /* UIImageEffects.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DC34777A1D9BD77300220F8F /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
 		DC34777C1D9BE05000220F8F /* CollectionOperationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionOperationViewController.swift; sourceTree = "<group>"; };
-		DC3477831D9BF6C700220F8F /* UIImageEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIImageEffects.swift; path = "../../../TestFiles/SwiftUIImageEffects-master/Source/UIImageEffects.swift"; sourceTree = "<group>"; };
 		DC3C0A3C1D9913F8001BB4D8 /* AsyncOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncOperation.swift; sourceTree = "<group>"; };
 		DC3C0A3E1D991FA2001BB4D8 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		DC806AB21D97D06B00ABCADF /* OperationQueueExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OperationQueueExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +35,7 @@
 		DC806AC11D97D06B00ABCADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC806AC71D97D89100ABCADF /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		DCA68DFE1D9C525300101830 /* Demos1-3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Demos1-3.swift"; sourceTree = "<group>"; };
+		DCFEAE671D9D175100EF341F /* UIImageEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageEffects.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 		DC34777E1D9BF49A00220F8F /* ImageEffects */ = {
 			isa = PBXGroup;
 			children = (
-				DC3477831D9BF6C700220F8F /* UIImageEffects.swift */,
+				DCFEAE671D9D175100EF341F /* UIImageEffects.swift */,
 			);
 			name = ImageEffects;
 			sourceTree = "<group>";
@@ -169,7 +169,7 @@
 			files = (
 				DC806AB81D97D06B00ABCADF /* ViewController.swift in Sources */,
 				DC806AC81D97D89100ABCADF /* Item.swift in Sources */,
-				DC3477841D9BF6C700220F8F /* UIImageEffects.swift in Sources */,
+				DCFEAE681D9D175100EF341F /* UIImageEffects.swift in Sources */,
 				DC34777D1D9BE05000220F8F /* CollectionOperationViewController.swift in Sources */,
 				DC3C0A3F1D991FA2001BB4D8 /* Cell.swift in Sources */,
 				DC34777B1D9BD77300220F8F /* DemoViewController.swift in Sources */,
